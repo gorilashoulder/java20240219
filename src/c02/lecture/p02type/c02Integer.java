@@ -9,6 +9,6 @@ public class c02Integer {
 
         //long
 
-        //byte, short
+        // 내일 배울 예정 byte, short
     }
 }
