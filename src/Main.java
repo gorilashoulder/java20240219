@@ -6,7 +6,7 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Hello 성환");
 
-        System.out.println("hi java");
+        System.out.println("hidd java");
         System.out.println("Hola intllij");
         System.out.println("안녕 중앙정보");
         System.out.println("배고프다");
