@@ -7,7 +7,7 @@ public class VariableExchangeExample {
         System.out.println("x:"+ x +",y:"+y);
 
         int temp= x;
-        x =y ;
+        x = y ;
         y= temp;
         System.out.println("x:"+x+",y:"+y);
 
