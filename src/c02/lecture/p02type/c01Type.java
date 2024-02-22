@@ -12,5 +12,6 @@ public class c01Type {
         //2.참조타입(reference type)
         //원시타입빼고 다
 
+        //기본타입과 참조타입 변환 안댐 예외눈 있음
      }
 }
