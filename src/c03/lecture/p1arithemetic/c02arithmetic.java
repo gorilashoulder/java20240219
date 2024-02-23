@@ -55,5 +55,11 @@ public class c02arithmetic {
         System.out.println("z="+z);
         System.out.println("x="+x);
         System.out.println("y=" +y);
+
+        int g=10;
+        int q=20;
+        int v= (++g)+ (q--); // 11 .. 20
+        System.out.println(v);
+        System.out.println(q);
     }
 }
