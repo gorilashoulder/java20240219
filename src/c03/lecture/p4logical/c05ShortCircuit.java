@@ -17,5 +17,11 @@ public class c05ShortCircuit {
         boolean b3 = (i++) == 10 | (i++) == 30;
         System.out.println("b3 = " + b3);
         System.out.println("i = " + i); // 12
+
+        System.out.println("---------------");
+        int x=10;
+        int y=5;
+        System.out.println((x>7) && (y<=5));
+        System.out.println( (x%3==2) || (y%2 != 1));
     }
 }
