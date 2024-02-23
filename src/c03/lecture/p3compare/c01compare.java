@@ -16,12 +16,12 @@ public class c01compare {
         System.out.println(b2);
 
         int num3 = 1;
-        double num4 =1.0;
-        boolean result5 =( num3 == num4);
-        System.out.println(result5);
+        double num4 = 1.0;
+        boolean result5 = (num3 == num4);
+        System.out.println("result5=" + result5);
 
-        float num5 =0.1f;
-        double num6 =0.1;
+        float num5 = 0.1f;
+        double num6 = 0.1;
         boolean result6 = (num5 == num6);
         boolean result7 = (num5 == (float) num6);
         //실수 비교는 주의 ! 근사치 저장이기때문..
