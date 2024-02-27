@@ -6,7 +6,7 @@ public class example02re {
         int i=1;
 
         while(i<=100){
-            sum += i;
+            sum += i; // sum= sum+i
             i++;
         }
         System.out.println("1~"+(i-1)+"합 :" +sum);
