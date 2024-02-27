@@ -1,6 +1,6 @@
 package ch05.lecture.p1array;
 
-public class c05Array {
+public class c05Arrayre {
     public static void main(String[] args) {
         //배열의 각 원소에 접근하는 법  :index 사용
         int[] arr= new int[]{100,200,400};
