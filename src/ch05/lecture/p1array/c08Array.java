@@ -30,6 +30,8 @@ public class c08Array {
             arr[i] *= 2;
         }
 
+        System.out.println(arr);
+
         System.out.println("-----------------");
         for (int item : arr) {
             System.out.println(item);
