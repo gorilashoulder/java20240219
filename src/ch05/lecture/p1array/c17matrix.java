@@ -1,6 +1,6 @@
 package ch05.lecture.p1array;
 
-public class c17matrixre {
+public class c17matrix {
     public static void main(String[] args) {
         int[][] mat1 = new int[3][2]; // 3행 2열
 
