@@ -2,7 +2,7 @@ package ch05.lecture.p1array;
 
 import java.util.Arrays;
 
-public class c18NestedArrayre {
+public class c18NestedArray {
     public static void main(String[] args) {
         //1차원 배열;
         int[] arr1=new int[5]; //원소가 5개인 배열
