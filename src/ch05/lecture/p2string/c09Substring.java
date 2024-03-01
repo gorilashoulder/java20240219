@@ -10,5 +10,7 @@ public class c09Substring {
 
         System.out.println(s.substring(7));
 
+        int [] a={1,2,3,4};
+        int [] b=a.subint
     }
 }
