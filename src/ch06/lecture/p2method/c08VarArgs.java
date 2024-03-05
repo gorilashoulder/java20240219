@@ -33,4 +33,13 @@ class c08myclass{
     void method2(int...a){
         System.out.println("c08myclass.method2,파라미터 0개 이상");
     }
+
+    // 다른 파라미터와 함께 사용시 꼭 마지막에 넣어야함
+    void method3(String s, int... a) {
+
+    }
+
+    void method4(String s, double n, int... a) {
+
+    }
 }
