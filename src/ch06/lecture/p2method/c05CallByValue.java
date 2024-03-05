@@ -10,6 +10,7 @@ public class c05CallByValue {
 
         System.out.println(a1[1]);
         obj1.method(a1);
+        System.out.println(Arrays.toString(a1));
         System.out.println(a1[1]);
 
         obj1.method2(a1);
