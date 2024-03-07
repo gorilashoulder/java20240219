@@ -34,4 +34,8 @@ class c01myclass{
     static void method2(){
 
     }
+    static void method2(int a, int b){
+
+    }
+
 }
