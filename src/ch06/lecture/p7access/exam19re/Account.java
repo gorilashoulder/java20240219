@@ -14,6 +14,8 @@ public class Account {
     public void setBalance(int balance) {
         if(balance>MIN_BALANCE && balance <= MAX_BALANCE){
             this.balance = balance;
+        }else{
+            System.out.println("범위 초과입니다.");
         }
 
     }

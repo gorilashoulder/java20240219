@@ -2,7 +2,9 @@ package ch06.lecture.p3construtor;
 
 public class c08thisre {
     public static void main(String[] args) {
-       c08myclass o1 = new c08myclass();
+
+        c08myclass o1 = new c08myclass();
+
     }
 }
 
