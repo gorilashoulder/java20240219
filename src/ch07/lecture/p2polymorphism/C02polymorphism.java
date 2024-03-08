@@ -13,6 +13,7 @@ public class C02polymorphism {
 
         animal1.breathe(); // 호흡합니다.
         animal2.breathe(); // 폐로 호흡합니다.
+
     }
 }
 
