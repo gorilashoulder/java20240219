@@ -7,6 +7,9 @@ public class C01Abstract {
     }
     //추상 클래스로 인스턴스 생성불가!
     //C01Animal animal1=new C01Animal();
+    //
 }
 abstract class C01Animal{}
+//
 class C01Tiger extends C01Animal{}
+class C01Bird{}
