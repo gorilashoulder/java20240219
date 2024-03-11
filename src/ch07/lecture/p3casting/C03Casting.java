@@ -13,7 +13,7 @@ public class C03Casting {
         tiger2.breathe();
 
 
-        C03Cat cat2 = (C03Cat) animal;
+        //C03Cat cat2 = (C03Cat) animal;
 
         C03Animal animal3 = new C03Animal();
         //C03Tiger tiger3 = (C03Tiger) animal3;
