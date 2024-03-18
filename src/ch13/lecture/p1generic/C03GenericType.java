@@ -16,19 +16,19 @@ public class C03GenericType {
         String item4=box2.getItem2();
     }
 }
-class C03Box<T,U>{
+class C03Box<T,V>{
     private T item1;
-    private U item2;
+    private V item2;
 
     public T getItem1() {
         return item1;
     }
 
-    public U getItem2() {
+    public V getItem2() {
         return item2;
     }
 
-    public void setItem2(U item2) {
+    public void setItem2(V item2) {
         this.item2 = item2;
     }
 

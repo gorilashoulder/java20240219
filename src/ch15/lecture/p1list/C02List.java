@@ -25,6 +25,7 @@ public class C02List {
 
         //검색 (contains)
 
+        System.out.println("------------------------------");
         System.out.println(list1.contains("spring"));
         System.out.println(list1.contains("java"));
         System.out.println(list1.contains("springboot"));
