@@ -13,6 +13,10 @@ public class C01Queue {
         queue.offer("jdbc");
         queue.offer("mariadb");
 
+        for(String que:queue){
+            System.out.println(que);
+        }
+
         System.out.println(queue.size());//4
 
         //아이템 삭제(poll)
