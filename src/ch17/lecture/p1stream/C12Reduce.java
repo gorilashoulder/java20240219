@@ -1,4 +1,4 @@
-package ch17.lecture.p1stream.excercise.n5;
+package ch17.lecture.p1stream;
 
 import java.util.List;
 import java.util.Optional;
