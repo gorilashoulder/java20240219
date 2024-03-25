@@ -43,19 +43,19 @@ public class Main {
             for (Player p : playerList) {
                 switch (strNum) {
                     case "1":
-                        if (p.isSameTeam("바르셀로나")) {
+                        if (p.isBarsh()) {
                             resultPlayerList.add(p);
                             System.out.println(p.toString());
                         }
                         break;
                     case "2":
-                        if (p.isSameTeam("레알마드리드")) {
+                        if (p.isRealMadrid()) {
                             resultPlayerList.add(p);
                             System.out.println(p.toString());
                         }
                         break;
                     case "3":
-                        if (p.isSameTeam("맨유")) {
+                        if (p.isManU()) {
                             resultPlayerList.add(p);
                             System.out.println(p.toString());
                         }
