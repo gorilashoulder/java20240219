@@ -16,7 +16,7 @@ public class C02OutputStream {
         os.write(9872342);
         os.write(28374);
 
-        os.flush();//아직 스트림에 출력되지 않은 데이터들을 강제 출력
+        os.flush();//아직 스트림에 출력되지 않은 데이터들을 강제
         os.close();//꼭 작성해야함
 
     }
