@@ -16,32 +16,28 @@ public class algorithm {
         list.add(alogoStudent2);
 
 
-
-
-
-
-
         Scanner scanner = new Scanner(System.in);
         System.out.println("y는 반복 N은종료");
         String line = scanner.nextLine();
-        while (true){
-            if (line.equals("y")){
+        while (true) {
+            if (line.equals("y")) {
                 System.out.println("검색시작");
-                String name= scanner.next();
-                boolean flag=false;
-                for (AlogoStudent member : list){
-                   if (member.getName().equals(name)){
-                       System.out.println("감기걸렸다");
-                       flag=true;
-                   }
-                }
-                if (!flag){
-                    System.out.println("끝");
+                String name = scanner.next();
+                boolean flag = false;
+                for (AlogoStudent member : list) {
+                    if (member.getName().equals(name)) {
+                        System.out.println("감기걸렸다");
+                        flag = true;
 
-            }
+                    }
+                    if (!flag) {
+                        System.out.println("끝");
+
+                    }
+                }
+
             }
 
         }
-
     }
-    }
+}
